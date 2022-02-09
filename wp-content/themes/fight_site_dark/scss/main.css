@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.header .header-banner {
+  background-image: url("../assets/images/wire-netting-texture-2-1161029.jpg");
+  background-size: cover;
+  height: 10rem;
+  max-width: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+.header .header-title:hover {
+  color: red;
+}
+
+.header .header-title p {
+  margin: 0;
+}
+
+.header .menu-bar {
+  background-color: silver;
+}
+
+.header .menu-bar ul {
+  margin: 0;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .menu-bar li {
+  list-style: none;
+  display: inline;
+}
+
+.header .menu-bar a:hover {
+  color: red;
+}
+
+.header a {
+  text-decoration: none;
+  color: currentColor;
+}
+/*# sourceMappingURL=main.css.map */
