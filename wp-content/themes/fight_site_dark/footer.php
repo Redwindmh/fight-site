@@ -1,4 +1,4 @@
-<script href="./js/main.js"></script>
-</body>
 
+<?php wp_footer(); ?>
+</body>
 </html>

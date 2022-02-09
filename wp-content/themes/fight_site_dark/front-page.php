@@ -1,7 +1,4 @@
-<?php
-get_header();
-wp_head();
-?>
+<?php get_header(); ?>
 <section class="top-carousel">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
