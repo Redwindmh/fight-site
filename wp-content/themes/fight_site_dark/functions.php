@@ -22,7 +22,7 @@ function fight_site_scripts() {
 
     $version = wp_get_theme()->get( 'Version' );
     wp_enqueue_script('fight-night-bootstrap-js', "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js", array(), 5.1, true);
-    wp_enqueue_script('fight-night-js', get_template_directory_uri() . "/js/main.js", array(), 1, true);
+    wp_enqueue_script('fight-night-js', get_template_directory_uri() . "/js/main.js", array(), $version, true);
 
 }
 
