@@ -26,6 +26,12 @@
             <span class="sr-only"></span>
         </a>
     </div>
+    <div class="events-bar">
+        <h2>Events</h2>
+    </div>
+    <div>
+
+    </div>
 </section>
 
 <?php get_footer(); ?>
