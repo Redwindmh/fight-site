@@ -49,3 +49,28 @@ body {
     color: currentColor;
   }
 }
+
+.footer-banner {
+  width: 100%;
+  background-color: black;
+  color: white;
+  ul {
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li {
+    list-style: none;
+    display: inline;
+  }
+  a {
+    &:hover {
+      color: red;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+}

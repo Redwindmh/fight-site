@@ -16,9 +16,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <?php
- wp_head();
- ?>
+    <?php wp_head(); ?>
 
 </head>
 
@@ -26,17 +24,17 @@
     <section class="header">
         <div class="header-banner">
             <div class="header-title">
-                <a href="#">Fight-site</a>
+                <a href="<?php echo site_url('/'); ?>">Fight-site</a>
             </div>
         </div>
         <div class="menu-bar">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Fighters</a></li>
-                <li><a href="#">Gyms</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+                <li><a href="<?php echo site_url('/news'); ?>">News</a></li>
+                <li><a href="<?php echo site_url('/fighter-profiles'); ?>">Fighters</a></li>
+                <li><a href="<?php echo site_url('/gyms'); ?>">Gyms</a></li>
+                <li><a href="<?php echo site_url('/events'); ?>">Events</a></li>
+                <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
             </ul>
         </div>
     </section>

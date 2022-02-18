@@ -59,4 +59,35 @@ body {
   text-decoration: none;
   color: currentColor;
 }
+
+.footer-banner {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer-banner ul {
+  margin: 0;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-banner li {
+  list-style: none;
+  display: inline;
+}
+
+.footer-banner a:hover {
+  color: red;
+}
+
+.footer-banner a {
+  text-decoration: none;
+  color: currentColor;
+}
 /*# sourceMappingURL=main.css.map */

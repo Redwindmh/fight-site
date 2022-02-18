@@ -29,9 +29,22 @@
     <div class="events-bar">
         <h2>Events</h2>
     </div>
-    <div>
+    <div class="row">
+        <div class="col-8">
+            <section class="main-content">
+                <div>
 
+                </div>
+            </section>
+        </div>
     </div>
+    <div class="col-4">
+        <section class="sidebar">
+
+        </section>
+    </div>
+
+
 </section>
 
 <?php get_footer(); ?>

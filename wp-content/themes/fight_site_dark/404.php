@@ -35,7 +35,7 @@
 }
 </style>
 
-<h1 class="text-center">404! <br> In the meantime, <br>← and → to move, <br>↑ to shoot!</h1>
+<h1 class="text-center">404! Page not found! <br> In the meantime, <br>← and → to move, <br>↑ to shoot!</h1>
 <div class="d-flex justify-content-center">
     <div class="grid"></div>
 </div>
